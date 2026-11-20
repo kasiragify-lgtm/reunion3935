@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>นัดแบบวัยรุ่นเจนซีตอนปลาย</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&amp;display=swap">
+    <style>
+    :root {
+      color-scheme: dark;
+      --ink: #fcf5ff;
+      --muted: #ded1e5;
+      --accent: #f7ed57;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #100c18;
+      color: var(--ink);
+      font: 17px/1.65 Prompt,"Leelawadee UI",system-ui,sans-serif;
+    }
+
+    main {
+      max-width: 740px;
+      margin: auto;
+      padding: 28px 18px 36px;
+    }
+
+    header {
+      padding: 34px 24px;
+      background: radial-gradient(ellipse at top right,#53327b,#241533 65%);
+      border: 1px solid #79519a;
+      border-radius: 26px;
+    }
+
+    h1 {
+      font-size: clamp(35px,8vw,62px);
+      line-height: 1.12;
+      margin: 0 0 15px;
+      letter-spacing: -.045em;
+    }
+
+    h1 span {
+      color: var(--accent);
+      display: block;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin: 0 0 8px;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .when {
+      font-weight: bold;
+      color: var(--accent);
+    }
+
+    .map {
+      display: grid;
+      overflow: hidden;
+      position: relative;
+      margin: 16px 0;
+      border-radius: 22px;
+      background: linear-gradient(135deg,#251642,#553081 70%,#184f6b);
+      min-height: 190px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .map img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .map img[hidden] {
+      display: none;
+    }
+
+    .map-text {
+      padding: 26px;
+      align-self: end;
+    }
+
+    .map strong {
+      display: block;
+      font-size: 30px;
+      line-height: 1.15;
+    }
+
+    .gps {
+      display: inline-block;
+      margin-top: 12px;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    .panel {
+      padding: 21px 24px;
+      margin: 14px 0;
+      background: #20172a;
+      border: 1px solid #473452;
+      border-radius: 20px;
+      color: var(--muted);
+    }
+
+    .panel h2 {
+      color: var(--ink);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 7px;
+      padding: 10px 17px;
+      background: var(--accent);
+      color: #251632;
+      font-weight: bold;
+      border-radius: 999px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--accent);
+      font-weight: bold;
+      margin-top: 24px;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #fff;
+      outline-offset: 3px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 16px 0;
+    }
+
+    .gallery img {
+      width: 100%;
+      display: block;
+      border-radius: 14px;
+      border: 1px solid #79519a;
+    }
+
+    .gallery img:first-child {
+      grid-column: 1/-1;
+    }
+
+    .names {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      list-style: none;
+      margin: 10px 0;
+      padding: 0;
+    }
+
+    .names li {
+      border-radius: 999px;
+      background: #352349;
+      padding: 3px 12px;
+    }
+
+    .names.maybe li {
+      background: #44374b;
+      color: #fff1a7;
+    }
+
+    .subhead {
+      margin-top: 13px;
+      margin-bottom: 0;
+      color: #f7ed57;
+      font-weight: 600;
+    }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>เรียนเชิญ<span>วัยรุ่นปวดหลัง</span></h1>
+        <p>มาดื่ม มา Drink น้ำสกปรก 🍻</p>
+        <p class="when">เสาร์ 28 พฤศจิกายน 2569 · ถึงร้าน Mood ไม่เกิน 20.00 น.</p>
+        <p>โต๊ะจองชื่อ <strong>กิ๊ฟ</strong> ใครถึงก่อนแจ้งชื่อแล้วรับโต๊ะได้เลยนะจ๊ะไม่ต้องกลัวเหงา</p>
+      </header>
+     
+        <h2>ใครมาบ้าง</h2>
+        <p class="subhead">มาแน่ๆ เจอหน้าแน่ๆ</p>
+        <ul class="names">
+          <li>เจน</li>
+          <li>แคท</li>
+          <li>เน้</li>
+          <li>พี่ปัด</li>
+          <li>เฟิร์น</li>
+          <li>บีม</li>
+          <li>ยิม</li>
+          <li>แฮม</li>
+          <li>หมู</li>
+          <li>เอฟ</li>
+          <li>บอล</li>
+          <li>เก็ท</li>
+          <li>เป้า</li>
+          <li>ทีน</li>
+        </ul>
+        <p class="subhead">ถ้าคุณหน้าตาดีคุณถึงจะได้เจอ</p>
+        <ul class="names maybe">
+          <li>หมีพูห์</li>
+          <li>แทน</li>
+          <li>เบส</li>
+          <li>ออย</li>
+          <li>มะปราง</li>
+        </ul>
+      </section>
+      <section class="panel">
+        <h2>เรื่องเงินไม่ต้องกลัวได้จ่ายทุกคนไม่งงด้วย</h2>
+        <p>หาของที่ตัวเองกินแล้วติ๊กใต้ชื่อตัวเอง ของที่แชร์กันก็ติ๊กเฉพาะคนที่กิน ยอดที่แต่ละคนต้องจ่ายจะขึ้นเหนือชื่อนะจ๊ะ ใครมีอะไรที่ดีกว่าโปรดแนะนำ</p>
+        <a class="button" href="https://docs.google.com/spreadsheets/d/1tCQXqMp2vwhLVRamtij8vM1MBCxbbWFE0nljUsvslac/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          ลิ้งไป Google sheet จ้ะพี่
+        </a>
+      </section>
+      <section class="panel">
+        <h2>ใครอยากค้างคืน 🛏️</h2>
+        <p>ท่านใดคาดว่าไม่อยากกลับบ้าน โปรดติดต่อข้าพเจ้า (กิ๊ฟ) ไว้ก่อน เราจะได้หาโรงแรมกันคั้บ</p>
+      </section>
+      <footer>เมาไม่ขับ กลับไม่ไหวก็นอนนะจ๊ะ</footer>
+    </main>
+  </body>
+</html>
